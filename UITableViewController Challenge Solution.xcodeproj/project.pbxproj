@@ -14,13 +14,13 @@
 		17FD930D191F25DD00069367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD930C191F25DD00069367 /* main.m */; };
 		17FD9311191F25DD00069367 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD9310191F25DD00069367 /* CCAppDelegate.m */; };
 		17FD9314191F25DD00069367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FD9312191F25DD00069367 /* Main.storyboard */; };
-		17FD9317191F25DD00069367 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD9316191F25DD00069367 /* CCViewController.m */; };
 		17FD9319191F25DD00069367 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FD9318191F25DD00069367 /* Images.xcassets */; };
 		17FD9320191F25DD00069367 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FD931F191F25DD00069367 /* XCTest.framework */; };
 		17FD9321191F25DD00069367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FD9300191F25DC00069367 /* Foundation.framework */; };
 		17FD9322191F25DD00069367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FD9304191F25DC00069367 /* UIKit.framework */; };
 		17FD932A191F25DD00069367 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17FD9328191F25DD00069367 /* InfoPlist.strings */; };
 		17FD932C191F25DD00069367 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD932B191F25DD00069367 /* UITableViewController_Challenge_SolutionTests.m */; };
+		17FD9337191F27E400069367 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD9336191F27E400069367 /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		17FD930F191F25DD00069367 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		17FD9310191F25DD00069367 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		17FD9313191F25DD00069367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		17FD9315191F25DD00069367 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		17FD9316191F25DD00069367 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		17FD9318191F25DD00069367 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17FD931E191F25DD00069367 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FD931F191F25DD00069367 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		17FD9327191F25DD00069367 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		17FD9329191F25DD00069367 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17FD932B191F25DD00069367 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		17FD9335191F27E400069367 /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		17FD9336191F27E400069367 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				17FD930F191F25DD00069367 /* CCAppDelegate.h */,
 				17FD9310191F25DD00069367 /* CCAppDelegate.m */,
 				17FD9312191F25DD00069367 /* Main.storyboard */,
-				17FD9315191F25DD00069367 /* CCViewController.h */,
-				17FD9316191F25DD00069367 /* CCViewController.m */,
+				17FD9335191F27E400069367 /* CCTableViewController.h */,
+				17FD9336191F27E400069367 /* CCTableViewController.m */,
 				17FD9318191F25DD00069367 /* Images.xcassets */,
 				17FD9307191F25DC00069367 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				17FD9311191F25DD00069367 /* CCAppDelegate.m in Sources */,
 				17FD930D191F25DD00069367 /* main.m in Sources */,
-				17FD9317191F25DD00069367 /* CCViewController.m in Sources */,
+				17FD9337191F27E400069367 /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
